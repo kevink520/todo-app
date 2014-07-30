@@ -9,10 +9,6 @@ var App = Ember.Application.extend({
   Resolver: Resolver
 });
 
-App.ApplicationAdapter = DS.LSAdapter.extend({
-	namespace: 'todos-emberjs'
-});
-
 loadInitializers(App, 'todo-app');
 
 export default App;
