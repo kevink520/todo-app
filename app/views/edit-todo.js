@@ -6,6 +6,4 @@ var EditTodoView = Ember.TextField.extend({
 	}
 });
 
-Ember.Handlebars.helper('edit-todo', EditTodoView);
-
 export default EditTodoView;
